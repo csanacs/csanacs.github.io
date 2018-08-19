@@ -291,10 +291,11 @@ li {
 {
     .contacts {
     position: relative;
-    top: -10%;
+    top: -5%;
     padding-left: 20%;
     padding-top: 10%;
 }
     .harta {
         display: none;
-    }    
+    }
+    }
