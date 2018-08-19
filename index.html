@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta charset="utf-8">
+    <title> My life has no meaning</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js">
+    </script>
+    <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+    <script type="text/javascript">
+
+function initialize() {
+
+  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+  // Resize stuff...
+  google.maps.event.addDomListener(window, "resize", function() {
+    var center = map.getCenter();
+    google.maps.event.trigger(map, "resize");
+    map.setCenter(center); 
+  });
+
+}
+
+</script>
+</head>
+<body>
+    
+    <div class="wrapper">
+        
+        <section class="sec1"><h id="q">sad </h> <p class="hh">LIL'C</p></section>
+        <section class="content">
+            <p id="1"> 1"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p id="2"> 2"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p id="3"> 3"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p id="4"> 4"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        
+        </section>
+    
+    </div>
+    <div class="parallax1"></div>
+    <div id="piese">
+        <div class="titlu">
+            <p>Previewuri Piese</p>
+        </div>
+        <div class="pi">
+        <object>
+       <audio controls class="aud">
+  <source src="audio/beat1.wav" type="audio/wav">
+      </audio> 
+        <br>
+        <audio controls class="aud" align="middle">
+  <source src="audio/Hard22.wav" type="audio/wav">
+        </audio>
+        </object>
+        </div>
+            
+    </div>
+    <div class="parallax2"></div>
+    <p id="k">kys</p>
+    <div class="poz">
+    <div class="harta">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d365351.61268904316!2d23.805291708984363!3d44.324144458363925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d70e6d6dcd07%3A0x4650f2eadbde99f9!2sCraiova!5e0!3m2!1sen!2sro!4v1533470147582"  style="border:0" allowfullscreen></iframe>
+    </div>
+        </div>
+  
+    <div class="contacts">
+        <p class="text"><b>NUME: RAZVAN DIACONESCU</b></p>
+        <p class="text"><b>TELEFON: 07696969</b></p>
+        <p class="text"><b>Email: vevfasdfs@yahoo.com</b></p>
+        <ul>
+            <li><a href="#"><img src="icons/facebook.png"></a></li>
+            <li><a href="#"><img src="icons/paypal.png"></a></li>
+            <li><a href="#"><img src="icons/soundcloud.png"></a></li>
+            <li><a href="#"><img src="icons/instagram.png"></a></li>
+        </ul>
+    </div>
+      <nav>
+            
+            <ul class="logo"> <!-- asta e navbarul -->
+                <li><a href="#q">HOME</a></li>
+                <li><a href="#1">ABOUT</a></li>
+                <li><a href="#piese">MUSIC</a></li>
+                <li><a href="#k">CONTACT</a></li>
+            </ul>
+        
+        </nav>
+    <div class="footer">
+        <p>Copyright &#169 Razvan Diaconescu</p>
+    </div>
+    
+</body>
+
+
+
+
+</html>
