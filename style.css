@@ -299,3 +299,7 @@ li {
         display: none;
     }
     }
+
+.bold {
+    font-size: 30px;
+}    
